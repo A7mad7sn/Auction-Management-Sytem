@@ -1,0 +1,13 @@
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\bin\Release\Auction Management System 85.exe.config
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\bin\Release\Auction Management System 85.exe
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\bin\Release\Auction Management System 85.pdb
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Release\Auction Management System 85.csproj.AssemblyReference.cache
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Release\Auction Management System 85.csproj.SuggestedBindingRedirects.cache
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Release\Auction_Management_System_85.Form1.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Release\Auction_Management_System_85.Form2.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Release\Auction_Management_System_85.Form3.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Release\Auction_Management_System_85.Properties.Resources.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Release\Auction Management System 85.csproj.GenerateResource.cache
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Release\Auction Management System 85.csproj.CoreCompileInputs.cache
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Release\Auction Management System 85.exe
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Release\Auction Management System 85.pdb

@@ -1,0 +1,18 @@
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe.config
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.AssemblyReference.cache
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.SuggestedBindingRedirects.cache
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Properties.Resources.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.GenerateResource.cache
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CoreCompileInputs.cache
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.exe
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.pdb
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.pdb
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\bin\Debug\Oracle.DataAccess.dll
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CopyComplete
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.MainForm.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.UserLogin.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Registration.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.SellerForm.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.BidderForm.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AdminLogin.resources
