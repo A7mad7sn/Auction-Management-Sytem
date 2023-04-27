@@ -21,5 +21,13 @@ namespace Auction_Management_System_85
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            UserLogin f = new UserLogin();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
     }
 }

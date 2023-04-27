@@ -62,16 +62,16 @@ namespace Auction_Management_System_85
                 {
                     if (radioButton1.Checked)
                     {
-                        SellerForm f4 = new SellerForm();
+                        SellerForm f = new SellerForm();
                         this.Hide();
-                        f4.ShowDialog();
+                        f.ShowDialog();
                         this.Close();
                     }
                     else if (radioButton2.Checked)
                     {
-                        BidderForm f5 = new BidderForm();
+                        BidderForm f = new BidderForm();
                         this.Hide();
-                        f5.ShowDialog();
+                        f.ShowDialog();
                         this.Close();
                     }
                 }
@@ -94,9 +94,9 @@ namespace Auction_Management_System_85
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MainForm f1 = new MainForm();
+            MainForm f = new MainForm();
             this.Hide();
-            f1.ShowDialog();
+            f.ShowDialog();
             this.Close();
         }
     }

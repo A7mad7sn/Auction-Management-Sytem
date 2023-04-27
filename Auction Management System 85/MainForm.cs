@@ -24,26 +24,26 @@ namespace Auction_Management_System_85
 
         private void button1_Click(object sender, EventArgs e)
         {
-            UserLogin f2 = new UserLogin();
+            UserLogin f = new UserLogin();
             this.Hide();
-            f2.ShowDialog();
+            f.ShowDialog();
             this.Close();
         }
 
        
         private void button3_Click(object sender, EventArgs e)
         {
-            AdminLogin f6 = new AdminLogin();
+            AdminLogin f = new AdminLogin();
             this.Hide();
-            f6.ShowDialog();
+            f.ShowDialog();
             this.Close();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Registration f3 = new Registration();
+            Registration f = new Registration();
             this.Hide();
-            f3.ShowDialog();
+            f.ShowDialog();
             this.Close();
         }
 

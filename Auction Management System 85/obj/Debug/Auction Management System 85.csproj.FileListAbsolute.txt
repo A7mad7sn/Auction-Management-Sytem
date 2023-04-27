@@ -16,3 +16,4 @@ D:\Materials\6th Semester\Software Engineering\Project\Auction Management System
 D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.SellerForm.resources
 D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.BidderForm.resources
 D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AdminLogin.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AdminForm.resources

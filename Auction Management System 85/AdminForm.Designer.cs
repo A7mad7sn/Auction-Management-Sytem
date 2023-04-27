@@ -1,6 +1,6 @@
 ﻿namespace Auction_Management_System_85
 {
-    partial class SellerForm
+    partial class AdminForm
     {
         /// <summary>
         /// Required designer variable.
@@ -37,19 +37,18 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(294, 191);
+            this.label1.Location = new System.Drawing.Point(320, 210);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 31);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Hello Seller";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Size = new System.Drawing.Size(159, 31);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Hello Admin";
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Crimson;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(670, 41);
+            this.button2.Location = new System.Drawing.Point(682, 36);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 51);
             this.button2.TabIndex = 23;
@@ -57,7 +56,7 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // SellerForm
+            // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -66,9 +65,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Name = "SellerForm";
+            this.Name = "AdminForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form4";
+            this.Text = "AdminForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

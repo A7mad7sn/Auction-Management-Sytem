@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Auction_Management_System_85
 {
-    public partial class BidderForm : Form
+    public partial class AdminForm : Form
     {
-        public BidderForm()
+        public AdminForm()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            UserLogin f = new UserLogin();
+            AdminLogin f = new AdminLogin();
             this.Hide();
             f.ShowDialog();
             this.Close();

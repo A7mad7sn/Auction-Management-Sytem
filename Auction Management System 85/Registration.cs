@@ -32,9 +32,9 @@ namespace Auction_Management_System_85
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MainForm f1 = new MainForm();
+            MainForm f = new MainForm();
             this.Hide();
-            f1.ShowDialog();
+            f.ShowDialog();
             this.Close();
         }
     }
