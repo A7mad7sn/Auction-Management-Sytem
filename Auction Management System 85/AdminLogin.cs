@@ -14,8 +14,9 @@ namespace Auction_Management_System_85
 {
     public partial class AdminLogin : Form
     {
-        string ordb = "data source=orcl;User Id=ahmed; Password=85;";
+        string ordb = "data source=orcl;User Id=scott; Password=tiger;";
         OracleConnection conn;
+
         public AdminLogin()
         {
             InitializeComponent();
@@ -42,13 +43,13 @@ namespace Auction_Management_System_85
             cmd.Connection = conn;
             cmd.CommandText = "select admin_id,password from admin where admin_id =:adminid";
             cmd.CommandType = CommandType.Text;
-            cmd.Parameters.Add("adminid", textBox1.Text);
+            cmd.Parameters.Add("adminid", AdminIdTextBox.Text);
             OracleDataReader dr = cmd.ExecuteReader();
             if (dr.Read())
             {
-                if (dr[0].ToString() == textBox1.Text.ToString() && dr[1].ToString() == textBox2.Text.ToString())
+                if (dr[0].ToString() == AdminIdTextBox.Text.ToString() && dr[1].ToString() == PasswordTextBox.Text.ToString())
                 {
-                    AdminForm f = new AdminForm();
+                    AdminForm f = new AdminForm(AdminIdTextBox.Text.ToString());
                     this.Hide();
                     f.ShowDialog();
                     this.Close();

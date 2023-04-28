@@ -12,9 +12,11 @@ namespace Auction_Management_System_85
 {
     public partial class AdminForm : Form
     {
-        public AdminForm()
+        string adminid;
+        public AdminForm(string adminid)
         {
             InitializeComponent();
+            this.adminid = adminid;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -23,6 +25,35 @@ namespace Auction_Management_System_85
             this.Hide();
             f.ShowDialog();
             this.Close();
+        }
+
+        private void PendingAuctionsBtn_Click(object sender, EventArgs e)
+        {
+            PendingAuctionsForm f = new PendingAuctionsForm(adminid);
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void Mangebtn_Click(object sender, EventArgs e)
+        {
+            ManageUsersForm f = new ManageUsersForm(adminid);
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void ReportBtn_Click(object sender, EventArgs e)
+        {
+            ReportForm f = new ReportForm(adminid);
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void AdminForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

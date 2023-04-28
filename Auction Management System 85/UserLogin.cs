@@ -14,7 +14,7 @@ namespace Auction_Management_System_85
 {
     public partial class UserLogin : Form
     {
-        string ordb = "data source=orcl;User Id=ahmed; Password=85;";
+        string ordb = "data source=orcl;User Id=scott; Password=tiger;";
         OracleConnection conn;
         public UserLogin()
         {
@@ -44,32 +44,32 @@ namespace Auction_Management_System_85
         {
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
-            if(radioButton1.Checked)
-                cmd.CommandText = "select e_mail,password from sellers where e_mail =:email";
-            else if(radioButton2.Checked)
-                cmd.CommandText = "select e_mail,password from bidders where e_mail =:email";
+            if(SellerRadioButton.Checked)
+                cmd.CommandText = "select e_mail,password,seller_id from sellers where e_mail =:email";
+            else if(BidderRadioButton.Checked)
+                cmd.CommandText = "select e_mail,password,bidder_id from bidders where e_mail =:email";
             else
             {
                 MessageBox.Show("Please Select either bidder or sidder");
                 return;
             }
             cmd.CommandType = CommandType.Text;
-            cmd.Parameters.Add("email", textBox1.Text);
+            cmd.Parameters.Add("email", EmailTextBox.Text);
             OracleDataReader dr = cmd.ExecuteReader();
             if (dr.Read())
             {
-                if (dr[0].ToString()== textBox1.Text.ToString() && dr[1].ToString() == textBox2.Text.ToString())
+                if (dr[0].ToString()== EmailTextBox.Text.ToString() && dr[1].ToString() == PasswordTextBox.Text.ToString())
                 {
-                    if (radioButton1.Checked)
+                    if (SellerRadioButton.Checked)
                     {
-                        SellerForm f = new SellerForm();
+                        SellerForm f = new SellerForm(dr[2].ToString());
                         this.Hide();
                         f.ShowDialog();
                         this.Close();
                     }
-                    else if (radioButton2.Checked)
+                    else if (BidderRadioButton.Checked)
                     {
-                        BidderForm f = new BidderForm();
+                        BidderForm f = new BidderForm(dr[2].ToString());
                         this.Hide();
                         f.ShowDialog();
                         this.Close();
