@@ -18,7 +18,7 @@ namespace Auction_Management_System_85
         string auctionid;
         string sellerid;
         string bidderid;
-        public AuctionHistoryForm(string auction_id,string seller_id,string bidder_id)
+        public AuctionHistoryForm(string auction_id, string seller_id, string bidder_id)
         {
             InitializeComponent();
             this.auctionid = auction_id;
@@ -31,8 +31,8 @@ namespace Auction_Management_System_85
             //MessageBox.Show(DateTime.Now.ToString("U"));
             ID_txt.Text = auctionid;
             string constr = "data source=orcl;User Id=scott; Password=tiger;";
-            string cmdstr = "select bpa.datetime,bpa.bidder_id,b.name,bpa.placed_bid from bidder_participate_auction bpa , bidders b where bpa.auction_id = " + auctionid+" and bpa.bidder_id = b.bidder_id order by bpa.PLACED_BID ";
-            adapter = new OracleDataAdapter(cmdstr,constr);
+            string cmdstr = "select bpa.datetime,bpa.bidder_id,b.name,bpa.placed_bid from bidder_participate_auction bpa , bidders b where bpa.auction_id = " + auctionid + " and bpa.bidder_id = b.bidder_id order by bpa.PLACED_BID ";
+            adapter = new OracleDataAdapter(cmdstr, constr);
             ds = new DataSet();
             adapter.Fill(ds);
             HistoryDGV.DataSource = ds.Tables[0];

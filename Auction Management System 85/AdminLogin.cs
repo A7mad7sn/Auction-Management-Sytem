@@ -16,7 +16,6 @@ namespace Auction_Management_System_85
     {
         string ordb = "data source=orcl;User Id=scott; Password=tiger;";
         OracleConnection conn;
-
         public AdminLogin()
         {
             InitializeComponent();

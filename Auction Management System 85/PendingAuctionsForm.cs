@@ -35,11 +35,14 @@ namespace Auction_Management_System_85
             cmd.Connection = conn;
             cmd.CommandText = "select auction_id from auctions where approved_by is null";
             OracleDataReader dr = cmd.ExecuteReader();
+            bool found = false;
             while(dr.Read())
             {
                 Auct_id_cmb.Items.Add(dr[0]);
+                found = true;
             }
-            
+            if(!found)
+                MessageBox.Show("No Pending Auctions!");
             
             string constr = "data source=orcl;User Id=scott; Password=tiger;";
             string cmdstr = "select * from auctions where approved_by is null";
@@ -47,7 +50,7 @@ namespace Auction_Management_System_85
             ds = new DataSet();
             adapter.Fill(ds);
             PendingDGV.DataSource = ds.Tables[0];
-            PendingDGV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            PendingDGV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void button3_Click(object sender, EventArgs e)

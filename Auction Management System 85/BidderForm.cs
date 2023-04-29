@@ -34,18 +34,17 @@ namespace Auction_Management_System_85
             this.Close();
         }
 
-        private void loadAuctions_Click(object sender, EventArgs e)
-        {
-            
-        }
+       
 
         private void BidderForm_Load(object sender, EventArgs e)
         {
             cmb_id.DropDownStyle = ComboBoxStyle.DropDownList;
             conn = new OracleConnection(ordb);
             conn.Open();
+            string date_String = "TO_DATE('"+DateTime.Now.AddHours(3).ToString("dd")+" "+DateTime.Now.AddHours(3).ToString("MMM")
+                +" "+ DateTime.Now.AddHours(3).ToString("yy")+ "','DD-MON-YY')";
             string connstr = "Data Source=orcl;User Id=scott;Password=tiger;";
-            string cmdstr = "select * from auctions where approved_by is not null order by auction_id";
+            string cmdstr = "select * from auctions where approved_by is not null and start_date <"+date_String+"and end_date >"+date_String+" order by auction_id";
             adapter = new OracleDataAdapter(cmdstr, connstr);
             ds = new DataSet();
             adapter.Fill(ds);
@@ -53,7 +52,7 @@ namespace Auction_Management_System_85
             AuctionsDGV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "select auction_id from auctions where approved_by is not null order by auction_id";
+            cmd.CommandText = "select AUCTION_ID from auctions where approved_by is not null and start_date <"+date_String+"and end_date >"+date_String+" order by auction_id";
             OracleDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
                 cmb_id.Items.Add(dr[0]);

@@ -51,6 +51,14 @@ namespace Auction_Management_System_85
             this.Close();
         }
 
+        private void SellerReportBtn_Click(object sender, EventArgs e)
+        {
+            Seller_report f = new Seller_report(adminid);
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
         private void AdminForm_Load(object sender, EventArgs e)
         {
 

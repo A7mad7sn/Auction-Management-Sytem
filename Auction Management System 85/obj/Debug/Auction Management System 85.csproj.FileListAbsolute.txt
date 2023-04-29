@@ -1,6 +1,7 @@
 D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe
 D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe.config
 D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.AssemblyReference.cache
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.SuggestedBindingRedirects.cache
 D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Properties.Resources.resources
 D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.GenerateResource.cache
 D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CoreCompileInputs.cache
@@ -32,13 +33,132 @@ C:\Users\Karim\Desktop\Auction Management System 85\Auction Management System 85
 C:\Users\Karim\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CoreCompileInputs.cache
 C:\Users\Karim\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.exe
 C:\Users\Karim\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.pdb
-C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe.config
-C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe
-C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.pdb
-C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.AssemblyReference.cache
-C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.SuggestedBindingRedirects.cache
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AuctionHistoryForm.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.PendingAuctionsForm.resources
+D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ManageUsersForm.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe.config
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.pdb
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.AssemblyReference.cache
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AdminForm.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AuctionHistoryForm.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.MainForm.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ManageUsersForm.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.PendingAuctionsForm.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ReportForm.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.UserLogin.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Registration.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.SellerForm.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.BidderForm.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AdminLogin.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Properties.Resources.resources
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.GenerateResource.cache
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CoreCompileInputs.cache
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.exe
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.pdb
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.Shared.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\bin\Debug\stdole.dll
+D:\Downloads\Compressed\Auction_Management_System_85_2\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CopyComplete
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe.config
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.pdb
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportSource.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.Shared.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.Windows.Forms.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\bin\Debug\stdole.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.AssemblyReference.cache
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AdminForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AuctionHistoryForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.MainForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ManageUsersForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.PendingAuctionsForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ReportForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.UserLogin.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Registration.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.SellerForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.BidderForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AdminLogin.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Properties.Resources.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.GenerateResource.cache
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CoreCompileInputs.cache
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CopyComplete
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.exe
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.pdb
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Seller_report.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe.config
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.pdb
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportSource.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.Shared.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.Windows.Forms.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\bin\Debug\stdole.dll
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.AssemblyReference.cache
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AdminForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AuctionHistoryForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Seller_report.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.MainForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ManageUsersForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.PendingAuctionsForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ReportForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.UserLogin.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Registration.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.SellerForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.BidderForm.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AdminLogin.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Properties.Resources.resources
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.GenerateResource.cache
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CoreCompileInputs.cache
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CopyComplete
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.exe
+G:\fcis\fcis\3\6th\sorfware engineering\project\last\New folder\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.pdb
 C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AdminForm.resources
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AuctionHistoryForm.resources
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Seller_report.resources
 C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.MainForm.resources
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ManageUsersForm.resources
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.PendingAuctionsForm.resources
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ReportForm.resources
 C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.UserLogin.resources
 C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Registration.resources
 C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.SellerForm.resources
@@ -47,11 +167,26 @@ C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System
 C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.Properties.Resources.resources
 C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.GenerateResource.cache
 C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CoreCompileInputs.cache
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe.config
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.exe
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\Auction Management System 85.pdb
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\bin\Debug\stdole.dll
+C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.CopyComplete
 C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.exe
 C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.pdb
-C:\Users\HP Zbook\Desktop\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AuctionHistoryForm.resources
-D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.AuctionHistoryForm.resources
-D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.PendingAuctionsForm.resources
-D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ManageUsersForm.resources
-D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction_Management_System_85.ReportForm.resources
-D:\Materials\6th Semester\Software Engineering\Project\Auction Management System 85\Auction Management System 85\obj\Debug\Auction Management System 85.csproj.SuggestedBindingRedirects.cache
