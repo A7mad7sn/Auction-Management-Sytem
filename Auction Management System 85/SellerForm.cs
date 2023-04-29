@@ -21,7 +21,7 @@ namespace Auction_Management_System_85
         public SellerForm(string seller_id)
         {
             InitializeComponent();
-            this.sellerid=seller_id;
+            this.sellerid = seller_id;
         }
 
         private void SellerForm_Load(object sender, EventArgs e)
@@ -50,7 +50,7 @@ namespace Auction_Management_System_85
             this.Close();
         }
 
-        
+
 
         private void cmb_ID_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -75,7 +75,7 @@ namespace Auction_Management_System_85
 
         private void btn_Start_Click(object sender, EventArgs e)
         {
-            if (txt_Item.Text==""||txt_Description.Text==""||Txt_StartingBid.Text=="")
+            if (txt_Item.Text == "" || txt_Description.Text == "" || Txt_StartingBid.Text == "")
             {
                 MessageBox.Show("Complete Your Data!");
                 return;
@@ -91,7 +91,7 @@ namespace Auction_Management_System_85
             cmd.CommandText = "select Max(auction_id) from auctions";
             OracleDataReader dr = cmd.ExecuteReader();
             if (dr.Read())
-                to_be_appended = (Int32.Parse(dr[0].ToString())+1).ToString();
+                to_be_appended = (Int32.Parse(dr[0].ToString()) + 1).ToString();
             dr.Close();
             cmb_ID.Text = to_be_appended;
             cmb_ID.Items.Add(cmb_ID.Text);
@@ -110,7 +110,7 @@ namespace Auction_Management_System_85
             if (r != -1)
             {
                 cmb_ID.Items.Add(cmb_ID.Text);
-                MessageBox.Show("New Auction Created!\nAuction ID : "+to_be_appended);
+                MessageBox.Show("New Auction Created!\nAuction ID : " + to_be_appended);
             }
         }
 
@@ -167,7 +167,7 @@ namespace Auction_Management_System_85
         {
             if (cmb_ID.Text != "")
             {
-                AuctionHistoryForm f = new AuctionHistoryForm(cmb_ID.Text,sellerid,"-999");
+                AuctionHistoryForm f = new AuctionHistoryForm(cmb_ID.Text, sellerid, "-999");
                 this.Hide();
                 f.ShowDialog();
                 this.Close();
