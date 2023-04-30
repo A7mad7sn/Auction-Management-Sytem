@@ -1,0 +1,454 @@
+--------------------------------------------------------
+--  File created - Sunday-April-30-2023   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Sequence ACTID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "ACTID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Table ADMIN
+--------------------------------------------------------
+
+  CREATE TABLE "ADMIN" 
+   (	"ADMIN_ID" VARCHAR2(3), 
+	"PASSWORD" VARCHAR2(30)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table AUCTIONS
+--------------------------------------------------------
+
+  CREATE TABLE "AUCTIONS" 
+   (	"AUCTION_ID" NUMBER, 
+	"ITEM" VARCHAR2(30), 
+	"ITEM_DESCRIPTION" VARCHAR2(3333), 
+	"START_DATE" DATE, 
+	"END_DATE" DATE, 
+	"SELLER_ID" NUMBER, 
+	"APPROVED_BY" VARCHAR2(20), 
+	"LOWEST_BID" NUMBER, 
+	"CURRENT_HIGHEST_BID" NUMBER
+   ) ;
+--------------------------------------------------------
+--  DDL for Table BIDDERS
+--------------------------------------------------------
+
+  CREATE TABLE "BIDDERS" 
+   (	"BIDDER_ID" NUMBER, 
+	"E_MAIL" VARCHAR2(30), 
+	"PASSWORD" VARCHAR2(30), 
+	"PHONE_NUMBER" NUMBER, 
+	"NAME" VARCHAR2(30)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table BIDDER_PARTICIPATE_AUCTION
+--------------------------------------------------------
+
+  CREATE TABLE "BIDDER_PARTICIPATE_AUCTION" 
+   (	"AUCTION_ID" NUMBER, 
+	"BIDDER_ID" NUMBER, 
+	"PLACED_BID" NUMBER, 
+	"DATETIME" VARCHAR2(50)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table SELLERS
+--------------------------------------------------------
+
+  CREATE TABLE "SELLERS" 
+   (	"SELLER_ID" NUMBER, 
+	"E_MAIL" VARCHAR2(30), 
+	"PASSWORD" VARCHAR2(30), 
+	"PHONE_NUMBER" NUMBER, 
+	"NAME" VARCHAR2(30)
+   ) ;
+
+---------------------------------------------------
+--   DATA FOR TABLE BIDDER_PARTICIPATE_AUCTION
+--   FILTER = none used
+---------------------------------------------------
+REM INSERTING into BIDDER_PARTICIPATE_AUCTION
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (13,1,1950,'Sunday, April 30, 2023 11:27:39 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (1,2,5100,'Tuesday, April 18, 2023 7:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (5,3,4550,'Tuesday, April 18, 2023 8:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (2,5,250000,'Tuesday, April 18, 2023 9:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (6,6,2100,'Tuesday, April 18, 2023 10:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (3,6,1050,'Tuesday, April 18, 2023 11:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (7,9,3100,'Tuesday, April 18, 2023 12:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (4,9,10500,'Thursday, April 20, 2023 2:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (8,1,3600,'Thursday, April 20, 2023 3:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (5,2,4600,'Thursday, April 20, 2023 4:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (9,6,7150,'Thursday, April 20, 2023 5:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (6,5,2200,'Thursday, April 20, 2023 6:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (10,7,2600,'Thursday, April 20, 2023 7:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (7,10,3200,'Thursday, April 20, 2023 8:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (11,10,1200,'Thursday, April 20, 2023 9:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (8,3,3650,'Thursday, April 20, 2023 10:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (12,3,1650,'Thursday, April 20, 2023 11:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (9,5,7200,'Thursday, April 20, 2023 12:30:43 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (13,4,1800,'Monday, April 24, 2023 2:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (7,1,3300,'Sunday, April 30, 2023 9:34:24 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (14,6,1000,'Monday, April 24, 2023 11:45:43 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (1,3,5125,'Monday, April 24, 2023 5:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (2,4,2750000,'Monday, April 24, 2023 6:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (3,8,1100,'Monday, April 24, 2023 7:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (4,1,10750,'Monday, April 24, 2023 8:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (11,9,1220,'Monday, April 24, 2023 9:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (12,2,1675,'Monday, April 24, 2023 10:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (13,5,1840,'Monday, April 24, 2023 11:30:43 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (1,1,5175,'Friday, April 28, 2023 7:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (3,7,1150,'Friday, April 28, 2023 9:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (4,10,11000,'Friday, April 28, 2023 10:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (5,4,4700,'Friday, April 28, 2023 11:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (6,7,2250,'Friday, April 28, 2023 12:25:01 AM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (7,8,3250,'Friday, April 28, 2023 1:25:01 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (8,2,3700,'Friday, April 28, 2023 2:25:01 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (9,4,7250,'Friday, April 28, 2023 3:25:01 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (10,8,2800,'Friday, April 28, 2023 4:25:01 PM');
+Insert into BIDDER_PARTICIPATE_AUCTION (AUCTION_ID,BIDDER_ID,PLACED_BID,DATETIME) values (11,1,1250,'Friday, April 28, 2023 5:25:01 PM');
+
+---------------------------------------------------
+--   END DATA FOR TABLE BIDDER_PARTICIPATE_AUCTION
+---------------------------------------------------
+
+---------------------------------------------------
+--   DATA FOR TABLE AUCTIONS
+--   FILTER = none used
+---------------------------------------------------
+REM INSERTING into AUCTIONS
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (1,'Realme TV 32','TV Type: Android TV
+Screen Size: 32 Inch (80 cm)
+Screen Resolution: 1366 x 768
+Aspect Ratio: 16:9
+Motion Rate: 60 Hz
+Viewing Angle: 176°',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('25-MAY-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),1,'A5',5000,5175);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (2,'Chevrolet Volt Car','3x3 point rear seat belts
+ABS
+Air conditioning
+Alarm
+Alloy wheels
+Audio remote
+Body coloured bumpers
+CD
+Climate control
+Cruise control
+Driver`s airbag
+Electric mirrors
+Front electric windows
+Heated mirrors
+Heated seats
+Isofix child seat anchor points
+Leather seat trim
+Parking sensors
+PAS
+Passenger`s airbag
+Remote locking
+Service indicator
+Side airbags
+Sports seats
+Steering wheel rake adjustment
+Steering wheel reach adjustment
+Traction control',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('26-MAY-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),2,'A4',200000,275000);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (3,'Mountain Bike','Bike type: Mountain Bike
+Age Range: Adult
+Brand: Hador
+Number of speeds: 21
+Colour: Black-White
+Wheel size: 26 Inches
+Suspension: Dual
+Special features: Lightweight
+Included Components: Bicycle Pump
+Size: Large',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('27-MAY-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),3,'A3',1000,1150);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (4,'Lenovo iPad3','Brand: Lenovo
+Series: IdeaPad 3 15ITL6 - 82H801ALED
+Screen size: 15.6
+Hard disk size: 1 TB
+CPU model: Core i3
+Installed RAM memory size: 4 GB
+Operating System: DOS
+Special features: Touchscreen None
+Graphics card description: Integrated
+CPU speed: 3',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('28-MAY-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),4,'A2',10000,11000);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (5,'Samsung Galaxy A03','Color: Blue
+Brand: SAMSUNG
+Model name: Galaxy-A03
+Wireless carrier: ALGAR
+Operating system: Android 10.0
+Cellular technology: 4G
+Memory storage capacity: 3 GB
+Connectivity technology: Bluetooth, Wi-Fi, USB
+Screen size: 6.5 Inches
+Wireless network technology: LTE',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('29-MAY-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),5,'A1',4500,4700);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (6,'White Point Washing Machine','Made of metal. It features drum with large capacity
+Color: silver
+Brand: White Point
+multiple cleaning programs and 10 water levelsIt features air dry and fuzzy logic functionIt also features drum cleaning programIt features delay feature
+children''s safety lockIt features 2 water inlets and it doesn''t produce sound',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('30-MAY-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),6,'A5',2000,2250);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (7,'Unionaire Cooker','Stainless Steel
+It has 5 Burners
+Ignition bulb
+It has Gas
+Timer Digital
+Grill with motor
+It has Tray
+It has Thermostat',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('31-MAY-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),7,'A4',3000,3300);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (8,'Deep Fresh Refrigerator','Brand : Fresh
+Upright Freezer
+Model Number : FNU-L250BC
+Color :¿ Black
+5 drawers',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('01-JUN-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),8,'A3',3500,3700);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (9,'Dell OptiPlex  Desktop','Brand: Dell
+Operating System: Linux
+Installed RAM memory size: 4 GB
+Series: OptiPlex MT 3090
+CPU model: Core i3 Family
+CPU manufacturer: Intel
+CPU speed: 4.4 GHz
+Ram memory technology: DDR4
+Graphics co-processor: Intel UHD Graphics 630',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('02-JUN-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),9,'A2',7000,7250);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (10,'Bed','Material: Iron, Metal
+Product dimensions: 100L x 120W x 100H centimeters
+Style: Modern
+Colour: black
+What is in the box?	headboard
+Brand: Generic
+Care Instructions: Wipe with Dry Cloth
+Designed to perfection
+Comes in a good packaging
+Easy to maintain',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('03-JUN-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),10,'A1',2500,2800);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (12,'Aldora Viola Sofa Bed','Colour: Turcoaz
+Brand: Aldora
+Style: Modern
+Room type: Living Room
+Seating capacity: 3
+Item Shape: L-Shape
+Arm style: Track
+Frame material: Wood
+Material: Wood, Metal
+Is Assembly Required?: Yes',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('05-JUN-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),2,'A4',1500,1675);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (13,'Turkish Door','Color: Brown
+Height in cm: 2.16 CM
+Width in cm: 90 cm
+Material: PVC Wood
+Country of origin: Turkey
+Turkish PVC wood door - acrylic ring - including accessories - including gallon - delivery price includes installation
+Door Type: PVC Turkey
+Assembly Required: Yes',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('06-JUN-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),3,'A3',1700,1950);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (14,'Bloss Privacy Window','Material: Vinyl
+Brand: Bloss
+Colour: white
+Product dimensions: 199.9L x 45W centimeters
+Installation type: Static Cling
+Ultraviolet light protection: Anti UV',to_timestamp('18-APR-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('07-JUN-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),4,'A2',750,1000);
+Insert into AUCTIONS (AUCTION_ID,ITEM,ITEM_DESCRIPTION,START_DATE,END_DATE,SELLER_ID,APPROVED_BY,LOWEST_BID,CURRENT_HIGHEST_BID) values (11,'Black Chair','Colour: Black
+Brand: Generic
+Product dimensions: 50D x 50W x 60H centimeters
+Material: Metal
+Pattern: Solid
+Room type: Office
+Frame material: Metal
+Age range: Adult
+Product care instructions: Wipe Clean
+Surface recommendation: Hard Floor',to_timestamp('01-MAY-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),to_timestamp('04-JUN-23 12.00.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),1,'A5',500,1250);
+
+---------------------------------------------------
+--   END DATA FOR TABLE AUCTIONS
+---------------------------------------------------
+
+---------------------------------------------------
+--   DATA FOR TABLE BIDDERS
+--   FILTER = none used
+---------------------------------------------------
+REM INSERTING into BIDDERS
+Insert into BIDDERS (BIDDER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (1,'risen_sun46@gmail.com','12345',2015452188888,'Samira Mohsen');
+Insert into BIDDERS (BIDDER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (2,'smkmk782@gmail.com','99999',201112149549,'Ali Elsamak');
+Insert into BIDDERS (BIDDER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (3,'pink_flower31@yahoo.com','1718',2010452165988,'Gamela Ashraf');
+Insert into BIDDERS (BIDDER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (4,'Mohamed3li21@hotmail.com','1919',2012456987321,'Mohamed Ali');
+Insert into BIDDERS (BIDDER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (5,'dark_knight85@gmail.com','15937',2015457823421,'Anas Mohamned');
+Insert into BIDDERS (BIDDER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (6,'Luckymoon45@gmail.com','75349',2017452146718,'Magdy Hassan');
+Insert into BIDDERS (BIDDER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (7,'Abo3mera10@gmail.com','25896',2015452466668,'Amr Saad');
+Insert into BIDDERS (BIDDER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (8,'Seif-sayed25@yahoo.com','644',2015452112834,'Seif Sayed');
+Insert into BIDDERS (BIDDER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (9,'Basant_gbr53@hotmail.com','753',2014856112834,'Bassant Gaber');
+Insert into BIDDERS (BIDDER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (10,'Abdullah3li25@gmail.com','88888',2010111122200,'Abdullah Ali');
+
+---------------------------------------------------
+--   END DATA FOR TABLE BIDDERS
+---------------------------------------------------
+
+---------------------------------------------------
+--   DATA FOR TABLE SELLERS
+--   FILTER = none used
+---------------------------------------------------
+REM INSERTING into SELLERS
+Insert into SELLERS (SELLER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (1,'ahmed.sayed@gmail.com','12345',2015452188888,'Ahmed Elsayed');
+Insert into SELLERS (SELLER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (2,'Bahaa.Salah@gmail.com','99999',201112149549,'Bahaa Salah');
+Insert into SELLERS (SELLER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (3,'Ali.elgohary@yahoo.com','1718',2010452165988,'Ali elgohary');
+Insert into SELLERS (SELLER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (4,'Sameh10Emad@hotmail.com','1919',2012456987321,'Sameh Emad');
+Insert into SELLERS (SELLER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (5,'Samir_Sayed77@gmail.com','15937',2015457823421,'Samir Sayed');
+Insert into SELLERS (SELLER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (6,'Luckymoon45@gmail.com','75349',2017452146718,'Eslam Refaat');
+Insert into SELLERS (SELLER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (7,'geby!!@gmail.com','25896',2015452466668,'Gebreel Mohamed');
+Insert into SELLERS (SELLER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (8,'Mero007@yahoo.com','644',2015452112834,'Omar gamal');
+Insert into SELLERS (SELLER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (9,'B00DY77@hotmail.com','753',2014856112834,'Abdo mohamed');
+Insert into SELLERS (SELLER_ID,E_MAIL,PASSWORD,PHONE_NUMBER,NAME) values (10,'kingsize998@gmail.com','88888',2010111122200,'Malik ahmed');
+
+---------------------------------------------------
+--   END DATA FOR TABLE SELLERS
+---------------------------------------------------
+
+---------------------------------------------------
+--   DATA FOR TABLE ADMIN
+--   FILTER = none used
+---------------------------------------------------
+REM INSERTING into ADMIN
+Insert into ADMIN (ADMIN_ID,PASSWORD) values ('A1','11111');
+Insert into ADMIN (ADMIN_ID,PASSWORD) values ('A2','22222');
+Insert into ADMIN (ADMIN_ID,PASSWORD) values ('A3','33333');
+Insert into ADMIN (ADMIN_ID,PASSWORD) values ('A4','44444');
+Insert into ADMIN (ADMIN_ID,PASSWORD) values ('A5','55555');
+
+---------------------------------------------------
+--   END DATA FOR TABLE ADMIN
+---------------------------------------------------
+--------------------------------------------------------
+--  Constraints for Table ADMIN
+--------------------------------------------------------
+
+  ALTER TABLE "ADMIN" ADD CONSTRAINT "ADMIN_PK" PRIMARY KEY ("ADMIN_ID") ENABLE;
+ 
+  ALTER TABLE "ADMIN" MODIFY ("ADMIN_ID" NOT NULL ENABLE);
+ 
+  ALTER TABLE "ADMIN" MODIFY ("PASSWORD" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table AUCTIONS
+--------------------------------------------------------
+
+  ALTER TABLE "AUCTIONS" ADD CONSTRAINT "AUCTIONS_PK" PRIMARY KEY ("AUCTION_ID") ENABLE;
+ 
+  ALTER TABLE "AUCTIONS" MODIFY ("ITEM" NOT NULL ENABLE);
+ 
+  ALTER TABLE "AUCTIONS" MODIFY ("START_DATE" NOT NULL ENABLE);
+ 
+  ALTER TABLE "AUCTIONS" MODIFY ("END_DATE" NOT NULL ENABLE);
+ 
+  ALTER TABLE "AUCTIONS" MODIFY ("AUCTION_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table BIDDERS
+--------------------------------------------------------
+
+  ALTER TABLE "BIDDERS" ADD CONSTRAINT "BIDDERS_PK" PRIMARY KEY ("BIDDER_ID") ENABLE;
+ 
+  ALTER TABLE "BIDDERS" MODIFY ("BIDDER_ID" NOT NULL ENABLE);
+ 
+  ALTER TABLE "BIDDERS" MODIFY ("E_MAIL" NOT NULL ENABLE);
+ 
+  ALTER TABLE "BIDDERS" MODIFY ("PASSWORD" NOT NULL ENABLE);
+ 
+  ALTER TABLE "BIDDERS" MODIFY ("NAME" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table BIDDER_PARTICIPATE_AUCTION
+--------------------------------------------------------
+
+  ALTER TABLE "BIDDER_PARTICIPATE_AUCTION" MODIFY ("AUCTION_ID" NOT NULL ENABLE);
+ 
+  ALTER TABLE "BIDDER_PARTICIPATE_AUCTION" MODIFY ("BIDDER_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table SELLERS
+--------------------------------------------------------
+
+  ALTER TABLE "SELLERS" ADD CONSTRAINT "SELLERS_PK" PRIMARY KEY ("SELLER_ID") ENABLE;
+ 
+  ALTER TABLE "SELLERS" MODIFY ("SELLER_ID" NOT NULL ENABLE);
+ 
+  ALTER TABLE "SELLERS" MODIFY ("E_MAIL" NOT NULL ENABLE);
+ 
+  ALTER TABLE "SELLERS" MODIFY ("PASSWORD" NOT NULL ENABLE);
+ 
+  ALTER TABLE "SELLERS" MODIFY ("NAME" NOT NULL ENABLE);
+--------------------------------------------------------
+--  DDL for Index ADMIN_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "ADMIN_PK" ON "ADMIN" ("ADMIN_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index AUCTIONS_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "AUCTIONS_PK" ON "AUCTIONS" ("AUCTION_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index BIDDERS_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "BIDDERS_PK" ON "BIDDERS" ("BIDDER_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SELLERS_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SELLERS_PK" ON "SELLERS" ("SELLER_ID") 
+  ;
+
+--------------------------------------------------------
+--  Ref Constraints for Table AUCTIONS
+--------------------------------------------------------
+
+  ALTER TABLE "AUCTIONS" ADD CONSTRAINT "AUCTIONS_ADMIN_FK1" FOREIGN KEY ("APPROVED_BY")
+	  REFERENCES "ADMIN" ("ADMIN_ID") ON DELETE CASCADE ENABLE;
+ 
+  ALTER TABLE "AUCTIONS" ADD CONSTRAINT "AUCTIONS_SELLERS_FK1" FOREIGN KEY ("SELLER_ID")
+	  REFERENCES "SELLERS" ("SELLER_ID") ON DELETE CASCADE ENABLE;
+
+--------------------------------------------------------
+--  Ref Constraints for Table BIDDER_PARTICIPATE_AUCTION
+--------------------------------------------------------
+
+  ALTER TABLE "BIDDER_PARTICIPATE_AUCTION" ADD CONSTRAINT "AUCTION_ID" FOREIGN KEY ("AUCTION_ID")
+	  REFERENCES "AUCTIONS" ("AUCTION_ID") ON DELETE CASCADE ENABLE;
+ 
+  ALTER TABLE "BIDDER_PARTICIPATE_AUCTION" ADD CONSTRAINT "BIDDER_ID" FOREIGN KEY ("BIDDER_ID")
+	  REFERENCES "BIDDERS" ("BIDDER_ID") ON DELETE CASCADE ENABLE;
+
+--------------------------------------------------------
+--  DDL for Procedure GETNEWBIDDERID
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "GETNEWBIDDERID" 
+(RES OUT NUMBER)
+AS
+BEGIN
+select Max(bidder_id) INTO RES from bidders;
+END GETNEWBIDDERID;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure GETNEWSELLERID
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "GETNEWSELLERID" 
+(RES OUT NUMBER)
+AS
+BEGIN
+select Max(bidder_id) INTO RES from bidders;
+END GETNEWSELLERID;
+
+/
+
+--------------------------------------------------------
+--  DDL for Procedure GETSELLERAUCTIONS
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE PROCEDURE "GETSELLERAUCTIONS" 
+(SE_ID IN NUMBER , CID out sys_refcursor)
+AS
+BEGIN
+OPEN CID FOR
+SELECT AUCTION_ID FROM auctions
+WHERE AUCTIONS.SELLER_ID = SE_ID;
+END GETSELLERAUCTIONS;
+
+/
+
