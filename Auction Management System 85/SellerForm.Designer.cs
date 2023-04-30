@@ -300,7 +300,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "SellerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form4";
+            this.Text = "Seller Form";
             this.Load += new System.EventHandler(this.SellerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

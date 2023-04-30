@@ -26,6 +26,7 @@ namespace Auction_Management_System_85
 
         private void SellerForm_Load(object sender, EventArgs e)
         {
+            end_Date.Value = start_Date.Value.AddDays(1); 
             cmb_ID.DropDownStyle = ComboBoxStyle.DropDownList;
             conn = new OracleConnection(ordb);
             conn.Open();
@@ -67,8 +68,10 @@ namespace Auction_Management_System_85
                 start_Date.Value = (DateTime)dr[2];
                 end_Date.Value = (DateTime)dr[3];
                 Txt_StartingBid.Text = dr[6].ToString();
-                if (dr[5].ToString() != null)
+                if (dr[5].ToString() != "")
                     Approved_CheckBox.Checked = true;
+                else
+                    Approved_CheckBox.Checked = false;
             }
             dr.Close();
         }
@@ -94,10 +97,10 @@ namespace Auction_Management_System_85
                 to_be_appended = (Int32.Parse(dr[0].ToString()) + 1).ToString();
             dr.Close();
             cmb_ID.Text = to_be_appended;
-            cmb_ID.Items.Add(cmb_ID.Text);
+            cmb_ID.Items.Add(to_be_appended);
             txt_Seller.Text = sellerid;
-            cmd.CommandText = "insert into AUCTIONS values(:id, :item, :itemdesc,:startdate,:enddate,:sellerid,null,:startingbid)";
-            cmd.Parameters.Add("id", cmb_ID.Text);
+            cmd.CommandText = "insert into AUCTIONS values(:id, :item, :itemdesc,:startdate,:enddate,:sellerid,null,:startingbid,NULL)";
+            cmd.Parameters.Add("id", to_be_appended);
             cmd.Parameters.Add("item", txt_Item.Text);
             cmd.Parameters.Add("itemdesc", txt_Description.Text);
             cmd.Parameters.Add("startdate", start_Date.Value.Date);
