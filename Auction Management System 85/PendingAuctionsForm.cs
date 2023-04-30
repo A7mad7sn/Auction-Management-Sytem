@@ -50,7 +50,7 @@ namespace Auction_Management_System_85
             ds = new DataSet();
             adapter.Fill(ds);
             PendingDGV.DataSource = ds.Tables[0];
-            PendingDGV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            PendingDGV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
         }
 
         private void button3_Click(object sender, EventArgs e)
